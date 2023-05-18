@@ -47,7 +47,7 @@ class TreeTest {
     }
     @Test
     public void testrootToLeafMax() {
-        // create a sample tree with longest path length of 3
+        // create a sample tree with the longest path length of 4
         TreeNode root = new TreeNode(1);
         root.setLeftChild(new TreeNode(2));
         root.getLeftChild().setLeftChild(new TreeNode(4));
