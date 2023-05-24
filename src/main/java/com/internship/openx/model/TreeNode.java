@@ -27,8 +27,7 @@ public class TreeNode {
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
-        if (!(obj instanceof TreeNode)) return false;
-        TreeNode otherNode = (TreeNode) obj;
+        if (!(obj instanceof TreeNode otherNode)) return false;
         return this.value == otherNode.value &&
                 Objects.equals(this.leftChild, otherNode.leftChild) &&
                 Objects.equals(this.rightChild, otherNode.rightChild);
